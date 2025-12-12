@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Happy Birthday, Rain</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">B-Day</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li><li><a href="#confession">Confession</a></li>
+    </ul>
+  </nav>
+
+<!-- HERO -->
+<section id="hero" class="section hero">
+  <div class="container hero-grid">
+    <!-- LEFT: TEXT -->
+    <div class="hero-content">
+      <p class="tagline">Level Up Day</p>
+      <h1>Happy Birthday, Bestfriend</h1>
+      <p class="sub">
+        Another year, another level unlocked.  
+        This whole site exists just to celebrate you.
+      </p>
+      <div class="hero-buttons">
+        <a href="#confession" class="btn ghost">Go to Confession</a>
+      </div>
+    </div>
+
+    <!-- RIGHT: AVATAR -->
+    <div class="hero-avatar">
+      <div class="avatar-circle">
+        <div class="avatar-headset"></div>
+        <div class="avatar-face"></div>
+      </div>
+      <div class="hero-icons">
+        <span>🎮</span>
+        <span>💬</span>
+        <span>💖</span>
+        <span>⭐</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- CONFESSION (LOCKED) -->
+  <section id="confession" class="section confession">
+    <div class="container confession-card">
+      <h2>Secret Confession</h2>
+      <p class="sub">
+        This part is locked. If you’re really the birthday legend, you know the password.
+      </p>
+
+      <div id="confession-lock">
+        <div class="lock-row">
+          <span class="lock-icon">🔒</span>
+          <input
+            type="password"
+            id="confession-password"
+            placeholder="Secrets"
+          />
+          <button id="confession-btn" class="btn primary small">
+            Unlock
+          </button>
+        </div>
+        <p id="confession-error" class="error-msg"></p>
+      </div>
+
+      <div id="confession-content" class="confession-hidden">
+        <div class="heart-bg">❤️</div>
+        <h3>My Confession</h3>
+        
+        <p>Huh...!! Confessions haa? I don’t know the exact moment when you went from ‘random online banda’ to ‘bestfriend’, but ab tera birthday aata hai toh algo se zyada tu yaad aata hai.<p>
+          
+          <p>Hackathons, calls, carding jokes, Dharti ke issues, sab ke beech tu genuinely constant raha. Jab bhi scene kharab hota tha, Whatsapp/Telegram pe tu hi hota tha jisse baat karni hoti thi.<p>
+          
+          <p>Kabhi kabhi main disappear ho jaata hoon, ya late reply karta hoon, and lagta hai shayad tujhe lage main door ho gaya. Sach bolu toh bas padhai, life aur ‘kuchh bada karna hai’ wala pressure hota hai, tujhse door rehna ka intention kabhi nahi tha.<p>
+          
+          <p>Isliye ye site banayi – taaki tu yaad rakhe ki chahe call frequency kam ho, but tu ‘bestfriend’ tag se nikal nahi raha. Agle saal hackathon, project, shayad meetup bhi – ye sab karta hi karna hai.<p>
+          
+          <p>Nevermind it, tum abhi mehnat kro, badhiya ham agle saal kuchh achha karenge, kuchh bada karenge.. aur kuchh lage toh beshak bata dena.. kabhi bhi message kr lena, achha rahe..<p>
+          
+          <p>btw, my apology for delay and kabhi kuchh galat bola ho kabhi..<p>
+
+<p>~ Krishna<p>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <script src="confession.js"></script>
+</body>
+</html>
